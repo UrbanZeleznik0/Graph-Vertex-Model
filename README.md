@@ -56,7 +56,7 @@ Fixed Model Parameters
 
 In addition to command-line arguments, the following parameters are set internally:
 
-Parameter  Value  Description
+Parameter      |      Value      |      Description
 - h      |      0.001      |      Time integration step
 - dg0      |      1      |      Baseline line tension
 - kM      |      1      |      Myosin turnover rate
