@@ -34,12 +34,13 @@ Requirements
 - argparse
 A valid input file (.vt3d) - provided in the “/test” folder
 
+
+
 Command-Line Arguments
 
 All model parameters are provided via command-line flags:
 
 Argument      |      Type      |      Description
-
 - --nsim      |      int      |      Number of independent simulations
 - --tmax      |      float      |      Maximum simulation time
 - --nmax      |      int      |      Maximum allowed number of cells
@@ -49,21 +50,18 @@ Argument      |      Type      |      Description
 - --lays      |      int      |      Number of live cell layers (lambda)
 - --g0b      |      float      |      Boundary surface tension (Gamma)
 
+
+
 Fixed Model Parameters
 
 In addition to command-line arguments, the following parameters are set internally:
 
 Parameter  Value  Description
-
-h          0.001  Time integration step
-
-dg0        1      Baseline line tension
-
-kM         1      Myosin turnover rate
-
-kV         100    Volume compressibility modulus
-
-outFreq    10.0   Output frequency
+- h      |      0.001      |      Time integration step
+- dg0      |      1      |      Baseline line tension
+- kM      |      1      |      Myosin turnover rate
+- kV      |      100      |      Volume compressibility modulus
+- outFreq      |      10.0      |      Output frequency
 
 These can be modified directly in the script if needed.
 
