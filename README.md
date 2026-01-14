@@ -1,7 +1,7 @@
 # Graph-Vertex-Model
 Graph Vertex Model for simulating tissue growth. 
 
-Includes ET and TE transitions was well as cell divisions.
+Includes ET and TE transitions as well as cell divisions.
 This script runs vertex-model tissue simulations using the GVM framework. 
 It configures model parameters via command-line arguments, executes one or more stochastic simulations, and automatically recovers from failed runs by restarting from the last valid saved state. 
 The script is intended to be used as a batch-simulation driver, for example in parameter sweeps or high-throughput numerical experiments.
